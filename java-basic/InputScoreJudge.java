@@ -5,7 +5,7 @@ public class InputScoreJudge {
         //Scannerの準備
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("点数を入力してください：");
+        System.out.print("点数を入力してください：");
         
         //入力された整数をscoreに入れる
         int score = scanner.nextInt();
